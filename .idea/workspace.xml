@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e23ecbf-fff4-44e8-80c7-607710cfa906" name="Changes" comment="first commit" />
+    <list default="true" id="4e23ecbf-fff4-44e8-80c7-607710cfa906" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +35,10 @@
   "keyToString": {
     "Python.Forible.executor": "Run",
     "Python.Main.executor": "Run",
+    "Python.Test.executor": "Run",
     "Python.User.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "C:/Users/HP/Desktop/bot",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,7 +59,7 @@
       <recent name="C:\Users\HP\Desktop\ForwordBot\.venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.User">
+  <component name="RunManager" selected="Python.Test">
     <configuration name="Forible" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ForwordBot" />
       <option name="ENV_FILES" value="" />
@@ -103,6 +106,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ForwordBot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="User" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ForwordBot" />
       <option name="ENV_FILES" value="" />
@@ -128,9 +154,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.User" />
         <item itemvalue="Python.Forible" />
-        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +186,8 @@
       <workItem from="1718628918317" duration="114000" />
       <workItem from="1718645079452" duration="1126000" />
       <workItem from="1718704318891" duration="5042000" />
-      <workItem from="1718711642339" duration="2761000" />
+      <workItem from="1718711642339" duration="2141000" />
+      <workItem from="1719135344724" duration="1993000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -207,8 +235,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ForwordBot$User.coverage" NAME="User Coverage Results" MODIFIED="1718704719731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/ForwordBot$Main.coverage" NAME="Main Coverage Results" MODIFIED="1718645094326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/ForwordBot$User.coverage" NAME="User Coverage Results" MODIFIED="1719135685804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/ForwordBot$Test.coverage" NAME="Test Coverage Results" MODIFIED="1719137182433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/ForwordBot$Main.coverage" NAME="Main Coverage Results" MODIFIED="1719136544293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/ForwordBot$Forible.coverage" NAME="Forible Coverage Results" MODIFIED="1718704553451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>
 </project>
